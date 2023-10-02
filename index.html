@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <Head>
-        <link rel="stylesheet" href="./Resources/style.css">
-        <title>productive subversion</title>
+    <Head><!--everything in here is meta data, nothing will show on the page-->
+        <link rel="stylesheet" href="./Resources/style.css"><!--This link's the style sheet-->
+        <title>productive subversion</title><!--This sets what the little tab's name is-->
     </Head>
     <body>
         <header>
@@ -10,12 +10,13 @@
             <div class="arrow"></div>
         </header>
         <main>
-            <section id="opt1">
+            <section id="opt1"><!--there are a few ways to indicate what a portion of the html is meant to contain, I prefer section-->
                 <h2>Option 1 (full rotation)</h2>
-                <table>
-                    <thead>
-                        <tr class="days">
-                            <th>
+                <table><!--Indicates that a table is about to start-->
+                    <thead><!--Indicates that this section is Table Header-->
+                        <tr class="days"><!--The class here (and elsewhere) is done for reference in the CSS sheet-->
+                            <th><!--This is the tag that actually tell the browser that these are headers. It makes them bold-->
+                                <!--Also the way this section is written out gives us the blank space in the header row-->
                                 <th>Monday</th>
                                 <th>Tuesday</th>
                                 <th>Wednesday</th>
@@ -24,11 +25,11 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody>    
-                        <tr>
-                            <th class="A">Group A</th>
-                            <td class="new">New Organizations</td>
-                            <td class="data">Data Correction</td>
+                    <tbody><!--The actual meat of the table-->
+                        <tr><!--Table Row-->
+                            <th class="A">Group A</th><!--again this tag separates the Group name from the rest of the table-->
+                            <td class="new">New Organizations</td><!--td indicates that this will be a Table Data point-->
+                            <td class="data">Data Correction</td><!--As always, Class attributes are meant for reference-->
                             <td class="user">User Updates</td>
                             <td class="software">Software Issue</td>
                             <td class="permission">Permission Updates</td>
@@ -67,18 +68,19 @@
                         </tr>
                     </tbody>
                 </table>
-                    <div class="lists">
-                        <ul>
-                            <li>We break up into 5 groups</li>
+                    <div class="lists"> <!--Div is just another form of section. Neither actually DO anything. it's for readability-->
+                        <ul> <!--Makes an unordered list, bullet points-->
+                            <li>We break up into 5 groups</li> <!--for each List Item you need an li-->
                             <li>each group tackles a different pile each day</li>
                         </ul>
                     </div>
-                <p>
+                <p><!--P is for Paragraph! it's just straight up text. Fun stuff.-->
                     Option one is pretty straight forward.
                     This way we are always hitting each request type, but we also aren't always doing the same ones every day.
                     This one is my overall favorite.
                 </p>
             </section>
+            <!--Everything after this point is just a modified copy of above!-->
             <section id="opt2">
                 <H2>Option 2 (half and half)</H2>
                 <table>

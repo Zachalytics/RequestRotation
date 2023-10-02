@@ -1,24 +1,32 @@
-* {
+/*Everything in here starts with an selector, then the style declaration following that*/
+* {/*fun fact, * is select all just like SQL*/
     box-sizing: border-box;
     color: rgb(0,153,216);
 }
 
-body {
-
+body {/*this is where I set the background color of the page. Since it selects the body it's basically everything*/
     background-color: rgb(0, 48, 87);
 }
 
 header {
+    /*Setting the size here, it's a few steps down from th real size but at the same ratio*/
     height: 500px;
     width: 950px;
+    /*Centers the whole header element and anything inside it*/
     margin: 0 auto ;
+    /*using the relative path we point to the image we want to select*/
+    /*relative path starts with ./ which just means we start in the current folder and then move forward*/
     background-image: url("./pics/produclolivty.jpg");
+    /*makes sure the fits in the allotted space without spilling over*/
     background-size: contain;
+    /*Makes sure it doesn't repeat just in case*/
+    /*I turned this off on the movie list because I thought it looked cool*/
     background-repeat: no-repeat;
+    /*This actually isn't doing anything right now haha*/
     background-position: center top;
-    border: 5px red;
+    /*border: 5px red;*/
 }
-
+/*From here on it's a lot of little things that amount to just formatting their respective selector*/
 h1 {
     color: rgb(0,153,216);
     width: 63%;
@@ -31,6 +39,8 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: 11px solid rgb(0, 48, 87);
 }
+/*Well, not this part. The two with ::after are how I added the arrow after Rotation*/
+/*It's a little weird but basically you just make an empty box, fill it with borders, and then make one side invisible*/
 h1::after {
     content: "";
     position: absolute;
@@ -70,6 +80,9 @@ td {
     padding: 5px;
     color: rgb(0, 48, 87);
 }
+/*I had some different colors going for the tables but it got kinda chaotic so I got rid of them.
+If you remove the comment things around them though they should show back up if you're curious*/
+
 /*
 .new {
     background-color: rgb(86, 248, 248);
