@@ -123,3 +123,7 @@ p {
     width: 800px;
     margin: auto;
 }
+
+.groups {
+    display:inline-block;
+}
