@@ -65,7 +65,7 @@ h2 {
 
 table {
     border-collapse: collapse;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 th {
@@ -124,6 +124,9 @@ p {
     margin: auto;
 }
 
-.groups {
-    display:inline-block;
+table.groups{
+    border-collapse: collapse;
+    position: relative;
+    left:auto
+    display: inline-block;
 }
