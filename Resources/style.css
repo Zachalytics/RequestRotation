@@ -16,7 +16,7 @@ header {
     margin: 0 auto ;
     /*using the relative path we point to the image we want to select*/
     /*relative path starts with ./ which just means we start in the current folder and then move forward*/
-    background-image: url("./pics/produclolivty.jpg");
+    background-image: url("./pics/marketing-productivity_-what-it-is-how-to-measure-it-610cf80ee849a-sej-1520x800.jpg");
     /*makes sure the fits in the allotted space without spilling over*/
     background-size: contain;
     /*Makes sure it doesn't repeat just in case*/
