@@ -130,8 +130,24 @@ table.groups{
     left:auto;
 }
 
-/*#opt4 table .normal{
-text-align: center;
-writing-mode: vertical-lr;
-text-orientation:sideways;
-}*/
+#opt4 td.new,
+#opt4 td.data,
+#opt4 td.user,
+#opt4 td.software,
+#opt4 td.permission{
+    border-top-width: 3px;
+}
+
+#opt4 td.normal,
+#opt4 td.left{
+    border-left-width: 3px;
+}
+
+#opt4 td.normal,
+#opt4 td.right{
+    border-right-width: 3px;
+}
+
+#opt4 td.normal {
+    border-bottom-width: 3px;
+}
